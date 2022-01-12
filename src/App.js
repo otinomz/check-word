@@ -11,6 +11,8 @@ function App() {
       const data = await axios.get(
         BASE_URL
       )
+
+      console.log(data)
     } catch (error){
       console.log(error)
     }
