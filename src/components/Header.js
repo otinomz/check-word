@@ -14,11 +14,10 @@ const Header = () => {
             <span className="title">Word Hunt</span>
 
             <div className="inputs">
-                <ThemeProvider>
-
+                <ThemeProvider theme={darkTheme}>
+                    <TextField id="standard-basic" label="Search a word" variant="standard" />
                 </ThemeProvider>
-                <TextField styles={{color: 'white'}} id="standard-basic" label="Search a word" variant="standard" />
-            </div>
+                </div>
         </div>
     )
 }
