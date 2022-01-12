@@ -29,7 +29,7 @@ function App() {
 
   useEffect(() => {
     dictionaryAPI()
-  },[])
+  },[word, category])
 
 
   // Inline styles section
