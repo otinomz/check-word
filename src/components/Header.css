@@ -12,3 +12,7 @@
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
 } 
+
+@media (max-width: 900px){
+    
+}
