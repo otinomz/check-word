@@ -24,8 +24,8 @@ const Header = ({category, setCategory}) => {
                         id="outlined-select-currency"
                         select
                         label="Select"
-                        value=""
-                        helperText="Please select your currency"
+                        value={category}
+                        helperText="Please select your language"
                         >
                         {categories.map((option) => (
                             <MenuItem key={option.label} value={option.label}>
