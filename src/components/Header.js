@@ -4,10 +4,13 @@ import "./Header.css"
 
 const Header = () => {
     const darkTheme = createMuiTheme({
-    palette: {
-        type: 'dark',
-    },
-    });
+        palette: {
+            primary: {
+                main: "#fff,"
+            },
+            type: 'dark',
+            },
+        });
 
     return (
         <div className="header">
