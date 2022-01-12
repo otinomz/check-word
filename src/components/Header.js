@@ -31,6 +31,7 @@ const Header = ({word, setWord, category, setCategory}) => {
                         onChange={(e)=> setWord(e.target.value)}
                     />
                     <TextField
+                        className="select"
                         select
                         label="Language"
                         value={category}
