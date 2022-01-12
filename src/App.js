@@ -28,8 +28,13 @@ function App() {
     dictionaryAPI()
   },[])
 
+  const inlineStyles = {
+    height: '100vh',
+    backgroundColor: "crimson"
+  }
+
   return (
-    <div className="App">
+    <div className="App" styles={inlineStyles}>
       <Container maxWidth="md">
         Dictionary Word game
       </Container>
