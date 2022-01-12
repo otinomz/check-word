@@ -27,8 +27,8 @@ const Header = () => {
                         helperText="Please select your currency"
                         >
                         {category.map((option) => (
-                            <MenuItem>
-                                english
+                            <MenuItem key={option.value}>
+                                {option.value}
                             </MenuItem>
                         ))} 
                     </TextField>
