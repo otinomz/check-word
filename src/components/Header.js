@@ -25,7 +25,7 @@ const Header = ({category, setCategory}) => {
                         select
                         label="Select"
                         value={category}
-                        onChange={(e) => setCategory(e)}
+                        onChange={(e) => setCategory(e.target.value)}
                         helperText="Please select your language"
                         >
                         {categories.map((option) => (
