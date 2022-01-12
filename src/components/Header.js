@@ -1,9 +1,9 @@
 import { createMuiTheme, MenuItem, TextField, ThemeProvider } from '@material-ui/core'
 import React from 'react'
 import "./Header.css"
-import category from '../data/Category'
+import categories from '../data/Category'
 
-const Header = () => {
+const Header = ({category, setCategory}) => {
     const darkTheme = createMuiTheme({
         palette: {
             primary: {
@@ -27,7 +27,7 @@ const Header = () => {
                         value=""
                         helperText="Please select your currency"
                         >
-                        {category.map((option) => (
+                        {categories.map((option) => (
                             <MenuItem key={option.label} value={option.label}>
                                 {option.value}
                             </MenuItem>
