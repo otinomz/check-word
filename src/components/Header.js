@@ -24,10 +24,11 @@ const Header = () => {
                         id="outlined-select-currency"
                         select
                         label="Select"
+                        value=""
                         helperText="Please select your currency"
                         >
                         {category.map((option) => (
-                            <MenuItem key={option.value}>
+                            <MenuItem key={option.labbel} value={option.label}>
                                 {option.value}
                             </MenuItem>
                         ))} 
