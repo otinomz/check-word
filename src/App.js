@@ -28,6 +28,8 @@ function App() {
     dictionaryAPI()
   },[])
 
+
+  // Inline styles section
   const inlineStyles = {
     height: '100vh',
     backgroundColor: "crimson",
@@ -37,6 +39,7 @@ function App() {
   const flexStyle = {
     display: 'flex',
     flexDirection: 'column',
+    height: '100vh'
   }
 
   return (
