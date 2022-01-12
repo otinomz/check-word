@@ -15,7 +15,11 @@ const Header = ({word, setWord, category, setCategory}) => {
 
     return (
         <div className="header">
-            <span className="title">Word Hunt</span>
+            <span className="title">
+                {
+                    word ? word : "Word Hunt"
+                }
+            </span>
 
             <div className="inputs">
                 <ThemeProvider theme={darkTheme}>
