@@ -18,4 +18,14 @@
         justify-content: space-evenly;
         height: 25vh;
     }
+
+    .title{
+        font-size: 11vh;
+    }
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
