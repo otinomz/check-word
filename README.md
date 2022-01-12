@@ -1,1 +1,1 @@
-#Dictionary word hunt created with React Js and Dictionary API
+#Dictionary word hunt created with React Js, Material UI and Dictionary API.
