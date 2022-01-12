@@ -30,11 +30,12 @@ function App() {
 
   const inlineStyles = {
     height: '100vh',
-    backgroundColor: "crimson"
+    backgroundColor: "crimson",
+    color: 'white'
   }
 
   return (
-    <div className="App" styles={inlineStyles}>
+    <div className="App" style={inlineStyles}>
       <Container maxWidth="md">
         Dictionary Word game
       </Container>
