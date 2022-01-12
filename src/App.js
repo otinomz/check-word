@@ -6,21 +6,22 @@ const BASE_URL = "https://api.dictionaryapi.dev/api/v2/entries/en/plane"
 
 function App() {
 
-  const [meanings, setmeanings] = useState([])
+  const [meanings, setMeanings] = useState([])
 
-
-
+  
   const dictionaryAPI = async () => {
     try {
-      const data = await axios.get(
+      const dictionary_data = await axios.get(
         BASE_URL
       )
-
-      console.log(data)
+      setMeanings(dictionary_data.data)
+      // console.log(dictionary_data.data)
     } catch (error){
       console.log(error)
     }
   }
+
+  console.log(meanings)
 
   useEffect(() => {
     dictionaryAPI()
