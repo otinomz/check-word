@@ -15,7 +15,6 @@
 
 @media (max-width: 900px){
     .header {
-        justify-content: space-evenly;
         height: 25vh;
     }
 
@@ -27,5 +26,5 @@
 .inputs{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
