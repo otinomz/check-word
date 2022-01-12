@@ -56,7 +56,7 @@ function App() {
         maxWidth="md"
         style={flexStyle}
       >
-        <Header/>
+        <Header category={category} setCategory={setCategory}/>
       </Container>
     </div>
   );
