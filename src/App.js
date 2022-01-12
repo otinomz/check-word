@@ -10,7 +10,7 @@ function App() {
   const [meanings, setMeanings] = useState([])
   const [category, setCategory] = useState('en')
 
-  const BASE_URL = `https://api.dictionaryapi.dev/api/v2/entries/${category}/plane`
+  const BASE_URL = `https://api.dictionaryapi.dev/api/v2/entries/${category}/${word}`
 
   // fetching data from google api
   const dictionaryAPI = async () => {
