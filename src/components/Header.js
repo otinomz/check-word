@@ -23,6 +23,8 @@ const Header = ({word, setWord, category, setCategory}) => {
                         className="search"
                         label="Search a word"
                         variant="standard"
+                        value={word}
+                        onChange={(e)=> setWord(e.target.value)}
                     />
                     <TextField
                         select
