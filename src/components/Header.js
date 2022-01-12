@@ -3,7 +3,7 @@ import React from 'react'
 import "./Header.css"
 import categories from '../data/Category'
 
-const Header = ({category, setCategory}) => {
+const Header = ({word, setWord, category, setCategory}) => {
     const darkTheme = createMuiTheme({
         palette: {
             primary: {
