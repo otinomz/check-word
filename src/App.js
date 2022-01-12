@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react"
 import './App.css';
 import axios from 'axios'
+import { Container } from "@material-ui/core";
 
 const BASE_URL = "https://api.dictionaryapi.dev/api/v2/entries/en/plane"
 
@@ -29,7 +30,9 @@ function App() {
 
   return (
     <div className="App">
-      Dictionary App using the dictionary API
+      <Container maxWidth="md">
+
+      </Container>
     </div>
   );
 }
