@@ -3,6 +3,7 @@ import './App.css';
 import axios from 'axios'
 import { Container } from "@material-ui/core";
 import Header from "./components/Header/Header"
+import Definitions from "./components/Definitions/Definitions";
 
 
 function App() {
@@ -62,7 +63,10 @@ function App() {
           category={category}
           setCategory={setCategory}
         />
+        
+        <Definitions/>
       </Container>
+
     </div>
   );
 }
