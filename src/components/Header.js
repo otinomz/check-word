@@ -21,7 +21,6 @@ const Header = ({category, setCategory}) => {
                 <ThemeProvider theme={darkTheme}>
                     <TextField
                         className="search"
-                        id="standard-basic"
                         label="Search a word"
                         variant="standard"
                     />
