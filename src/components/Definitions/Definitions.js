@@ -9,7 +9,9 @@ const Definitions = ({word, meanings, category}) => {
                 word === "" ? (
                     <span className="subTitle">Start By Typing A Word In Search</span>
                 ) : (
-                    "something"
+                        meanings.map((mean, i) => {
+                        
+                    })
                 )
             }
         </div>
