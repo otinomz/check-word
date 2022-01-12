@@ -19,10 +19,15 @@ const Header = ({category, setCategory}) => {
 
             <div className="inputs">
                 <ThemeProvider theme={darkTheme}>
-                    <TextField id="standard-basic" label="Search a word" variant="standard" />
+                    <TextField
+                        className="search"
+                        id="standard-basic"
+                        label="Search a word"
+                        variant="standard"
+                    />
                      <TextField
                         select
-                        label="Search a Word"
+                        label="Language"
                         value={category}
                         onChange={(e) => setCategory(e.target.value)}
                         helperText="Please select your language"
