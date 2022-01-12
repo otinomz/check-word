@@ -14,7 +14,8 @@ const Header = ({word, setWord, category, setCategory}) => {
         });
     
     const handleChange = (language) => {
-        setCategory(language)
+        setCategory(language);
+        setWord('')
     }
     
     

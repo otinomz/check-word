@@ -4,12 +4,13 @@ import axios from 'axios'
 import { Container } from "@material-ui/core";
 import Header from "./components/Header"
 
-const BASE_URL = "https://api.dictionaryapi.dev/api/v2/entries/en/plane"
 
 function App() {
   const [word, setWord] = useState("")
   const [meanings, setMeanings] = useState([])
   const [category, setCategory] = useState('en')
+
+  const BASE_URL = `https://api.dictionaryapi.dev/api/v2/entries/${category}/plane`
 
   // fetching data from google api
   const dictionaryAPI = async () => {
