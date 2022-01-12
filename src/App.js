@@ -10,6 +10,7 @@ function App() {
   const [word, setWord] = useState("")
   const [meanings, setMeanings] = useState([])
   const [category, setCategory] = useState('english')
+  
   // fetching data from google api
   const dictionaryAPI = async () => {
     try {

@@ -1,7 +1,7 @@
 import { createMuiTheme, MenuItem, TextField, ThemeProvider } from '@material-ui/core'
 import React from 'react'
 import "./Header.css"
-import category from '../data/category'
+import category from '../data/Category'
 
 const Header = () => {
     const darkTheme = createMuiTheme({
