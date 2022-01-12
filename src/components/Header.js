@@ -28,7 +28,7 @@ const Header = () => {
                         helperText="Please select your currency"
                         >
                         {category.map((option) => (
-                            <MenuItem key={option.labbel} value={option.label}>
+                            <MenuItem key={option.label} value={option.label}>
                                 {option.value}
                             </MenuItem>
                         ))} 
