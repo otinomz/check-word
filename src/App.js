@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <Container maxWidth="md">
-
+        Dictionary Word game
       </Container>
     </div>
   );
