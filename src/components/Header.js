@@ -8,7 +8,7 @@ const Header = () => {
             <span className="title">Word Hunt</span>
 
             <div className="inputs">
-                 <TextField id="standard-basic" label="Search a word" variant="standard" />
+                <TextField styles={{}} id="standard-basic" label="Search a word" variant="standard" />
             </div>
         </div>
     )
