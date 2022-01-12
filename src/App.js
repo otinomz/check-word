@@ -29,7 +29,7 @@ function App() {
 
   useEffect(() => {
     dictionaryAPI()
-    
+
   },[word, category])
 
 
@@ -47,12 +47,6 @@ function App() {
   }
 
   return (
-
-    
-
-
-
-
     <div className="App" style={inlineStyles}>
       <Container
         maxWidth="md"
