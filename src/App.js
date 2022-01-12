@@ -1,10 +1,13 @@
-import React, {useEffect} from "react"
+import React, {useState, useEffect} from "react"
 import './App.css';
 import axios from 'axios'
 
 const BASE_URL = "https://api.dictionaryapi.dev/api/v2/entries/en/plane"
 
 function App() {
+  const [state, setstate] = useState([])
+
+
 
   const dictionaryAPI = async () => {
     try {
