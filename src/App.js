@@ -19,7 +19,6 @@ function App() {
         BASE_URL
       )
       setMeanings(dictionary_data.data)
-      // console.log(dictionary_data.data)
     } catch (error){
       console.log(error)
     }
