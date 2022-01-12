@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Meanings"
+import "./Definitions.css"
 
 
 const Definitions = ({word, meanings, category}) => {
