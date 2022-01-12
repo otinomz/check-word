@@ -3,3 +3,8 @@
     flex-direction: column;
     overflow-y: scroll;
 }
+
+.subbTitle {
+    font-size: 5vw;
+    font-family: "Roboto", sans-serif;
+}
