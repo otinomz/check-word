@@ -9,7 +9,7 @@ function App() {
   const [word, setWord] = useState("")
   const [meanings, setMeanings] = useState([])
 
-  
+  // fetching data from google api
   const dictionaryAPI = async () => {
     try {
       const dictionary_data = await axios.get(
