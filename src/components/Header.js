@@ -23,15 +23,13 @@ const Header = () => {
                         id="outlined-select-currency"
                         select
                         label="Select"
-                        value={currency}
-                        onChange={handleChange}
                         helperText="Please select your currency"
                         >
-                        {currencies.map((option) => (
-                            <MenuItem key={option.value} value={option.value}>
-                            {option.label}
+                        {/* {currencies.map((option) => ( */}
+                            <MenuItem>
+                                english
                             </MenuItem>
-                        ))}
+                        {/* ))} */}
                     </TextField>
                 </ThemeProvider>
                 </div>
