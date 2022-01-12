@@ -3,8 +3,8 @@ import "./Header.css"
 
 const Header = () => {
     return (
-        <div>
-            
+        <div className="header">
+            <span className="title">Word Hunt</span>
         </div>
     )
 }
