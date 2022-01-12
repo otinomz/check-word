@@ -66,6 +66,8 @@ function App() {
 
         <Definitions
           word={word}
+          meanings={meanings}
+          category={category}
         />
       </Container>
 
