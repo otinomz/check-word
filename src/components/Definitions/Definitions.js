@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Definitions = () => {
+const Definitions = ({word}) => {
     return (
         <div>
             Hello world

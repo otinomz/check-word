@@ -63,8 +63,10 @@ function App() {
           category={category}
           setCategory={setCategory}
         />
-        
-        <Definitions/>
+
+        <Definitions
+          word={word}
+        />
       </Container>
 
     </div>
