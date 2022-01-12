@@ -1,3 +1,4 @@
+import { TextField } from '@material-ui/core'
 import React from 'react'
 import "./Header.css"
 
@@ -7,7 +8,7 @@ const Header = () => {
             <span className="title">Word Hunt</span>
 
             <div className="inputs">
-                
+                 <TextField id="standard-basic" label="Standard" variant="standard" />
             </div>
         </div>
     )
