@@ -24,7 +24,7 @@ const Header = ({word, setWord, category, setCategory}) => {
         <div className="header">
             <span className="title">
                 {
-                    word ? word : "Word Hunt"
+                    word ? word : "Word Dict."
                 }
             </span>
 
