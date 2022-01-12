@@ -25,13 +25,12 @@ const Header = ({category, setCategory}) => {
                         label="Search a word"
                         variant="standard"
                     />
-                     <TextField
+                    <TextField
                         select
                         label="Language"
                         value={category}
                         onChange={(e) => setCategory(e.target.value)}
-                        helperText="Please select your language"
-                        >
+                    >
                         {categories.map((option) => (
                             <MenuItem key={option.label} value={option.label}>
                                 {option.value}
