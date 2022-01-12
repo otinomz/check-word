@@ -34,9 +34,17 @@ function App() {
     color: 'white'
   }
 
+  const flexStyle = {
+    display: 'flex',
+    flexDirection: 'column',
+  }
+
   return (
     <div className="App" style={inlineStyles}>
-      <Container maxWidth="md">
+      <Container
+        maxWidth="md"
+        style={flexStyle}
+      >
         Dictionary Word game
       </Container>
     </div>
