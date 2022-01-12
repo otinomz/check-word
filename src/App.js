@@ -1,3 +1,4 @@
+import React, {useEffect} from "react"
 import './App.css';
 import axios from 'axios'
 
@@ -15,7 +16,9 @@ function App() {
     }
   }
 
-
+  useEffect(() => {
+    dictionaryAPI()
+  },[])
 
   return (
     <div className="App">
