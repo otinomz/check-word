@@ -12,7 +12,7 @@
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
 } 
-
+/* Responsive screens for the header */
 @media (max-width: 900px){
     .header {
         height: 25vh;
