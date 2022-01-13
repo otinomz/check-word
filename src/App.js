@@ -36,7 +36,7 @@ function App() {
   // Inline styles section
   const inlineStyles = {
     height: '100vh',
-    backgroundColor: "rgb(66, 66, 214)",
+    backgroundColor: "#3C4043",
     color: 'white'
   }
 
