@@ -9,7 +9,11 @@ const Definitions = ({word, meanings, category}) => {
                     <span className="subTitle">Start By Typing A Word In Search</span>
                 ) : (meanings.map((mean) => (
                         mean.meanings.map((item) => (
-                            console.log(item)
+                            item.definitions.map((def) => (
+                                <div>
+
+                                </div>
+                            ))
                         ))   
                     
                     ))
