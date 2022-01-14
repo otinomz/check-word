@@ -4,8 +4,8 @@ import axios from 'axios'
 import { Container } from "@material-ui/core";
 import Header from "./components/Header/Header"
 import Definitions from "./components/Definitions/Definitions";
-import {Switch} from '@mui/material-ui/core/Switch';
-import { grey } from "@material-ui/core/colors";
+// import {Switch} from '@mui/material-ui/core/Switch';
+// import { grey } from "@material-ui/core/colors";
 
 function App() {
   const [word, setWord] = useState("")
@@ -48,8 +48,6 @@ function App() {
 
   },[word, category])
 
-
-
   // Inline styles section here
   const inlineStyles = {
     height: '100vh',
@@ -69,13 +67,13 @@ function App() {
         maxWidth="md"
         style={flexStyle}
       >
-        <div style={{
+        {/* <div style={{
           position: "absolute",
           top: 0,
           right: 15
         }}>
-          hello
-        </div>
+        
+        </div> */}
         <Header
           word={word}
           setWord={setWord}
