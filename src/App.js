@@ -45,7 +45,6 @@ function App() {
 
   useEffect(() => {
     dictionaryAPI()
-
   },[word, category])
 
   // Inline styles section here
@@ -88,6 +87,7 @@ function App() {
           />
         )}
         
+        <p> Designed by Otinomo </p>
       </Container>
 
     </div>
