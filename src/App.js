@@ -4,7 +4,7 @@ import axios from 'axios'
 import { Container, withStyles } from "@material-ui/core";
 import Header from "./components/Header/Header"
 import Definitions from "./components/Definitions/Definitions";
-import {Switch} from '@mui/material/Switch';
+import {Switch} from '@mui/material/core/Switch/Switch';
 import { grey } from "@material-ui/core/colors";
 
 function App() {
