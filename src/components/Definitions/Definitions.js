@@ -18,7 +18,9 @@ const Definitions = ({word, meanings, category}) => {
                                                 <b>Example : {def.example}</b>
                                             </span>
                                         )
-                                    } <hr style={{ backgroundColor: "black", width: "100" }} />
+                                    }
+                                    {def.synonym}
+                                    <hr style={{ backgroundColor: "black", width: "100" }} />
                                 </div>
                             ))
                         ))   
