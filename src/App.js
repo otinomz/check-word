@@ -69,6 +69,9 @@ function App() {
         maxWidth="md"
         style={flexStyle}
       >
+        <div style={{position: "absolute", top: 0}}>
+
+        </div>
         <Header
           word={word}
           setWord={setWord}
