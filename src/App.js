@@ -4,6 +4,8 @@ import axios from 'axios'
 import { Container } from "@material-ui/core";
 import Header from "./components/Header/Header"
 import Definitions from "./components/Definitions/Definitions";
+import { styled } from '@mui/material/styles';
+import Switch from '@mui/material/Switch';
 
 
 function App() {
