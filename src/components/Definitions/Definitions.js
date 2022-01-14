@@ -21,7 +21,8 @@ const Definitions = ({word, meanings, category}) => {
                                     }
                                     {def.synonyms && (
                                         <span>
-                                            <b>Synonyms : {def.synonyms}</b>
+                                            <b>Synonyms:</b>
+                                            {def.synonyms.map((s)=> `${s},`)}
                                         </span>
                                     )
                                     }
