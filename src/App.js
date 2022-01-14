@@ -33,7 +33,8 @@ function App() {
   },[word, category])
 
 
-  // Inline styles section
+
+  // Inline styles section here
   const inlineStyles = {
     height: '100vh',
     backgroundColor: "#3C4043",
