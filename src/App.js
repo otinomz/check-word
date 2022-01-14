@@ -69,7 +69,11 @@ function App() {
         maxWidth="md"
         style={flexStyle}
       >
-        <div style={{position: "absolute", top: 0}}>
+        <div style={{
+          position: "absolute",
+          top: 0,
+          right: 0
+        }}>
 
         </div>
         <Header
