@@ -14,3 +14,11 @@
     font-size: 5vw;
     font-family: "Roboto", sans-serif;
 }
+
+@media (max-width: 900px) {
+    .meanings {
+        height: 60vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+}
