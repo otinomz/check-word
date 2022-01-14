@@ -13,12 +13,10 @@ const Definitions = ({word, meanings, category}) => {
                                 <div className=""  style={{ backgroundColor: "whitesmoke", color: "black" }}>
                                     <b>{def.definition}</b>
                                    
-                                    {
-                                        def.example && (
+                                    {def.example && (
                                             <span>
                                                 <b>Example : {def.example}</b>
                                             </span>
-                                            {def.synonym}
                                         )
                                     } <hr style={{ backgroundColor: "black", width: "100" }} />
                                 </div>
