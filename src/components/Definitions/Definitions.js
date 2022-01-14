@@ -6,7 +6,7 @@ const Definitions = ({word, meanings, category}) => {
         <div className="meanings">
             {
                 meanings[0] && word && category === "en" && (
-                    <audio>
+                    <audio style={{backgroundColor: "#fff", borderRadius: 10}}>
                         Your Browser doesn't support audio element
                     </audio>
                 )
@@ -35,7 +35,6 @@ const Definitions = ({word, meanings, category}) => {
                                         </span>
                                     )
                                     }
-                                    <hr style={{ backgroundColor: "black", width: "100" }} />
                                 </div>
                             ))
                         ))   
