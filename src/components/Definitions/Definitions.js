@@ -11,7 +11,7 @@ const Definitions = ({word, meanings, category}) => {
                 ) : (meanings.map((mean) => (
                         mean.meanings.map((item) => (
                             item.definitions.map((def) => (
-                                <div className=""  style={{ backgroundColor: "whitesmoke", color: "black" }}>
+                                <div className="singleMean"  style={{ backgroundColor: "whitesmoke", color: "black" }}>
                                     <b>{def.definition}</b>
                                     {def.example && (
                                             <span>
@@ -22,7 +22,7 @@ const Definitions = ({word, meanings, category}) => {
                                     }
                                     {def.synonyms && (
                                         <span>
-                                            <b>Synonyms:</b>
+                                            <b>Synonyms: </b>
                                             {def.synonyms.map((s)=> `${s},`)}
                                         </span>
                                     )
