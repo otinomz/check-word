@@ -19,7 +19,12 @@ const Definitions = ({word, meanings, category}) => {
                                             </span>
                                         )
                                     }
-                                    {def.synonym}
+                                    {def.synonyms && (
+                                        <span>
+                                            <b>Synonyms : {def.synonyms}</b>
+                                        </span>
+                                    )
+                                    }
                                     <hr style={{ backgroundColor: "black", width: "100" }} />
                                 </div>
                             ))
