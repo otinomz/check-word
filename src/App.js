@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from "react"
 import './App.css';
 import axios from 'axios'
-import { Container, withStyles } from "@material-ui/core";
+import { Container } from "@material-ui/core";
 import Header from "./components/Header/Header"
 import Definitions from "./components/Definitions/Definitions";
-import {Switch} from '@mui/material/core/Switch/Switch';
+import {Switch} from '@mui/material-ui/core/Switch';
 import { grey } from "@material-ui/core/colors";
 
 function App() {
@@ -13,19 +13,19 @@ function App() {
   const [category, setCategory] = useState('en')
 
   // toggle switch
-  const greySwitch = withStyles({
-    switchBase: {
-      color: grey[300],
-      "&$checked": {
-        color: grey[500],
-      },
-      "&$checked + $track": {
-        backgroundColor: grey[500],
-      }
-    },
-    checked: {},
-    track: {}
-  })(Switch)
+  // const greySwitch = withStyles({
+  //   switchBase: {
+  //     color: grey[300],
+  //     "&$checked": {
+  //       color: grey[500],
+  //     },
+  //     "&$checked + $track": {
+  //       backgroundColor: grey[500],
+  //     }
+  //   },
+  //   checked: {},
+  //   track: {}
+  // })(Switch)
 
   const BASE_URL = `https://api.dictionaryapi.dev/api/v2/entries/${category}/${word}`
 
@@ -72,9 +72,9 @@ function App() {
         <div style={{
           position: "absolute",
           top: 0,
-          right: 0
+          right: 15
         }}>
-
+          hello
         </div>
         <Header
           word={word}
