@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Definitions.css"
 
-
 const Definitions = ({word, meanings, category}) => {
     return (
         <div className="meanings">
