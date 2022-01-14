@@ -12,7 +12,14 @@ const Definitions = ({word, meanings, category}) => {
                             item.definitions.map((def) => (
                                 <div className=""  style={{ backgroundColor: "whitesmoke", color: "black" }}>
                                     <b>{def.definition}</b>
-                                    <hr style = {{backgroundColor: "black", width: "100"}}/>
+                                    <hr style={{ backgroundColor: "black", width: "100" }} />
+                                    {
+                                        def.example && (
+                                            <span>
+                                                <b>Example : {def.example}</b>
+                                            </span>
+                                        )
+                                    }
                                 </div>
                             ))
                         ))   
