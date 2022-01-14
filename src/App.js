@@ -45,7 +45,7 @@ function App() {
 
   useEffect(() => {
     dictionaryAPI()
-  },[word, category])
+  },[word, category, BASE_URL])
 
   // Inline styles section here
   const inlineStyles = {
