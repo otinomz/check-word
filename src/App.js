@@ -6,6 +6,7 @@ import Header from "./components/Header/Header"
 import Definitions from "./components/Definitions/Definitions";
 import { styled } from '@mui/material/styles';
 import Switch from '@mui/material/Switch';
+import { withStyles } from "@material-ui/styles";
 
 function App() {
   const [word, setWord] = useState("")
@@ -13,7 +14,19 @@ function App() {
   const [category, setCategory] = useState('en')
 
   // toggle switch
-
+  const greySwitch = withStyles({
+    switchBase: {
+      color: grey[300],
+      "&$checked": {
+        color: grey[500],
+      },
+      "&$checked + $track": {
+        backgroundColor: grey[500],
+      }
+    },
+    checked: {},
+    track: {}
+  })(Switch)
 
   const BASE_URL = `https://api.dictionaryapi.dev/api/v2/entries/${category}/${word}`
 
