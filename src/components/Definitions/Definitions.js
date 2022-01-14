@@ -4,6 +4,7 @@ import "./Definitions.css"
 const Definitions = ({word, meanings, category}) => {
     return (
         <div className="meanings">
+            {/* mapping through items from the API */}
             {
                 word === "" ? (
                     <span className="subTitle"> Start By Typing A Word In Search</span>
@@ -12,7 +13,6 @@ const Definitions = ({word, meanings, category}) => {
                             item.definitions.map((def) => (
                                 <div className=""  style={{ backgroundColor: "whitesmoke", color: "black" }}>
                                     <b>{def.definition}</b>
-                                   
                                     {def.example && (
                                             <span>
                                                 <b>Example : {def.example}</b>
