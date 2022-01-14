@@ -15,7 +15,8 @@ const Definitions = ({word, meanings, category}) => {
                                     <b>{def.definition}</b>
                                     {def.example && (
                                             <span>
-                                                <b>Example : {def.example}</b>
+                                                <b>Example:</b>
+                                                {def.example}
                                             </span>
                                         )
                                     }
