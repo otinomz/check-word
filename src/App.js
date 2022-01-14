@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from "react"
 import './App.css';
 import axios from 'axios'
-import { Container } from "@material-ui/core";
+import { Container, withStyles } from "@material-ui/core";
 import Header from "./components/Header/Header"
 import Definitions from "./components/Definitions/Definitions";
 import { styled } from '@mui/material/styles';
 import Switch from '@mui/material/Switch';
-import { withStyles } from "@material-ui/styles";
+import { grey } from "@material-ui/core/colors";
 
 function App() {
   const [word, setWord] = useState("")
