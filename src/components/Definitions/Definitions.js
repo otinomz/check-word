@@ -4,6 +4,14 @@ import "./Definitions.css"
 const Definitions = ({word, meanings, category}) => {
     return (
         <div className="meanings">
+            {
+                meanings[0] && word && category === "en" && (
+                    <audio>
+                        Your Browser doesn't support audio element
+                    </audio>
+                )
+            }
+
             {/* mapping through items from the API */}
             {
                 word === "" ? (
