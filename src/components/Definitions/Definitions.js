@@ -10,7 +10,7 @@ const Definitions = ({word, meanings, category}) => {
                 ) : (meanings.map((mean) => (
                         mean.meanings.map((item) => (
                             item.definitions.map((def) => (
-                                <div>
+                                <div className="singleMenu" style={{}}>
 
                                 </div>
                             ))
